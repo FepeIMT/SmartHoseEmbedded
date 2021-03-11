@@ -111,7 +111,6 @@ const osThreadAttr_t ReadLM35_attributes = {
   .stack_size = 128 * 4
 };
 /* USER CODE BEGIN PV */
-
 uint8_t temp_LM35;
 uint8_t buffer[2];
 uint8_t buffer_in[2];
